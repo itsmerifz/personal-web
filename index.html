@@ -19,6 +19,7 @@
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     <script>
       var scroll = new SmoothScroll('a[href*="#"]');
     </script>
@@ -31,11 +32,11 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="container">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
             <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="#about">About Me</a>
@@ -54,7 +55,7 @@
         <div class="col-lg-5">
           <div class="row">
             <div class="col-12 text-center">
-              <img src="assets/img/hero-prof.png" alt="headpage-gambar" class="gambar rounded-circle">
+              <img src="assets/img/hero-prof.png" alt="headpage-gambar" class="lozad gambar rounded-circle">
             </div>
           </div>
           <div class="row text-center">
@@ -97,7 +98,7 @@
 
       <div class="row justify-content-center about-me-2">
         <div class="col-lg-5">
-          <img src="assets/img/about-me.png" alt="about-me">
+          <img src="assets/img/about-me.png" alt="about-me" class="lozad">
         </div>
         <div class="col-lg-7">
           <p>Hi, my name is Muhamad Arief Previasakti Suradi. I'm now
