@@ -3,13 +3,13 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #ffffff;
+  background-color: #2a2929;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  border: 3px solid #ffffff;
-  background-color: #343a40;
+  border: 3px solid #2a2929;
+  background-color: #ffffff;
 }
 /* HTML Fonts */
 html{
@@ -93,7 +93,7 @@ body{
 .about-me-2 img{
   width: 320px;
   height: inherit;
-  box-shadow: -12px -12px;
+  box-shadow: -12px 12px;
 }
 .about-me-2{
   margin-top: 35px;
@@ -123,6 +123,32 @@ body{
   color: #1C87D8;
 }
 
+/* Projects */
+.project h5{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.slide{
+  border-radius: 30%;
+}
+
+/* SkillTool */
+.skill{
+  margin-bottom: 30px;
+}
+
+.skill img{
+  width: 80px;
+  height: auto;
+  opacity: 60%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.skill img:hover{
+  opacity: 100%;
+}
 
 /* DESKTOP VERSION */
 @media (min-width: 992px) {
