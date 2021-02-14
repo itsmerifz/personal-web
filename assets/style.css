@@ -11,91 +11,91 @@
   border: 3px solid #2a2929;
   background-color: #ffffff;
 }
-/* HTML Fonts */
-html{
-  background-color: #2A2929;
+/* HTML Fonts and BG Color */
+html {
+  background-color: #2a2929;
 }
 
-body{
-  background-color: #2A2929 !important;
-  font-family: 'Raleway', sans-serif !important;
+body {
+  background-color: #2a2929 !important;
+  font-family: "Raleway", sans-serif !important;
   color: #ffffff !important;
 }
 
 /* Navbar */
-.navbar{
+.navbar {
   margin-top: 5px;
-  background-color: #2A2929;
+  background-color: #2a2929;
 }
 
-.nav-link{
+.nav-link {
   margin-right: 15px;
 }
 
 /* Headpage */
-.headpage{
+.headpage {
   margin-top: 97px;
-  background-color: #2A2929 !important;
+  background-color: #2a2929 !important;
   color: #ffffff;
   padding-right: 15px;
 }
 
-.gambar{
+.gambar {
   height: 300px;
   width: 300px;
   border-radius: 50%;
   border: 18px solid #ffffff;
 }
 
-.headpage h1{
+.headpage h1 {
   font-weight: 800;
   text-align: center;
 }
 
-.headpage span{
-  color: #1C87D8;
+.headpage span {
+  color: #1c87d8;
 }
 
-.headpage p{
+.headpage p {
   margin-top: 35px;
   text-align: center;
 }
 
-.headpage a{
+.headpage a {
   font-size: 46.31px;
   color: #ffffff;
 }
 
-.headpage a:hover{
-  color: #1C87D8;
+.headpage a:hover {
+  color: #1c87d8;
 }
 
-.scroll-down-text{
+.scroll-down-text {
   letter-spacing: 1rem;
   margin-top: 12px;
   font-weight: 300;
 }
 
-.scroll-down a{
+.scroll-down a {
   font-size: 35px;
   color: #ffffff !important;
 }
 
 /* About Me */
-.about-me{
+.about-me {
   margin-top: 130px;
   margin-bottom: 55px;
 }
-.about-me h1{
+.about-me h1 {
   font-weight: bold;
 }
 
-.about-me-2 .photo{
+.about-me-2 .photo {
   width: 320px;
   height: inherit;
   box-shadow: -12px 12px;
 }
-.about-me-2{
+.about-me-2 {
   margin-top: 35px;
 }
 .about-me-2 p {
@@ -108,46 +108,47 @@ body{
   height: 240px;
   width: 345px;
   font-weight: 600;
-  color: #8B8A8A;
-  background-color: #8B8A8A;
+  color: #8b8a8a;
+  background-color: #8b8a8a;
   margin-top: -270px;
   margin-left: -20px;
   z-index: 1;
 }
-.about-me-2 h3{
+.about-me-2 h3 {
   font-size: 24px;
   font-weight: 300;
 }
-.about-me-2 span{
-  color: #1C87D8;
+.about-me-2 span {
+  color: #1c87d8;
   font-weight: 600;
 }
-.about-me-2 p,h3{
+.about-me-2 p,
+h3 {
   text-align: left;
 }
 
-.about-me span{
-  color: #1C87D8;
+.about-me span {
+  color: #1c87d8;
 }
 
 /* Projects */
-.project h5{
+.project h5 {
   text-align: center;
   margin-bottom: 15px;
 }
 
-.carousel-item img{
+.carousel-item img {
   width: 80% !important;
   height: auto;
   margin: auto;
 }
 
 /* SkillTool */
-.skill{
+.skill {
   margin-bottom: 30px;
 }
 
-.skill img{
+.skill img {
   width: 80px;
   height: auto;
   opacity: 60%;
@@ -156,46 +157,93 @@ body{
   margin-bottom: 15px;
 }
 
-.skill img:hover{
+.skill img:hover {
   opacity: 100%;
+}
+
+/* Contact */
+.contact h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.contact span {
+  color: #1c87d8;
+  font-weight: 600;
+}
+.contact iframe{
+  width: 275px;
+  height: 275px;
+  border-radius: 30px;
+  box-shadow: 5px 5px #8b8a8a;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer,.footer h6{
+  font-size: 12px;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 10px;
 }
 
 /* DESKTOP VERSION */
 @media (min-width: 992px) {
-  .nav-link:hover::after{
-    content: '';
+  .nav-link:hover::after {
+    content: "";
     display: block;
-    border-bottom: 3px solid #1C87D8;
+    border-bottom: 3px solid #1c87d8;
     margin: auto;
     padding-bottom: 5px;
     margin-bottom: -8px;
   }
 
-  .headpage h1{
+  .headpage h1 {
     font-size: 65px;
     text-align: left;
   }
-  
-  .headpage p{
+
+  .headpage p {
     font-size: 42px;
     text-align: left;
   }
 
-  .double-box{
+  .double-box {
     height: 148px;
     width: 632px;
     font-weight: 600;
-    color: #8B8A8A;
-    background-color: #8B8A8A;
+    color: #8b8a8a;
+    background-color: #8b8a8a;
     margin-right: 20px;
     margin-bottom: 10px;
     margin-top: -165px;
     margin-left: -15px;
   }
 
-  .carousel-item img{
+  .carousel-item img {
     width: 75% !important;
     margin: auto;
   }
 
+  .contact h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: justify !important;
+    padding-top: 50px;
+    padding-left: 35px;
+  }
+  .contact span {
+    color: #1c87d8;
+    font-weight: 600;
+  }
+
+  .contact iframe{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: -5px 5px #8b8a8a;
+    margin-top: 0;
+    padding-left: -15px;
+  }
 }
